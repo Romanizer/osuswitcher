@@ -17,4 +17,4 @@ For Rigidity, please use pcb mount switches.
 * Board:        Arduino Micro
 * Programmer:   AVR ISP
 
-![alt text](https://gitlab.com/Romanizer/osu-keys/-/raw/master/images/arduino_ide_settings.png "Arduino IDE Settings")
+![alt text](https://github.com/Romanizer/osuswitcher/blob/master/images/arduino_ide_settings.png "Arduino IDE Settings")
