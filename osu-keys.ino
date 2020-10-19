@@ -1,9 +1,8 @@
 #include <Keyboard.h>
 
 
-// constants won't change. They're used here to 
-// set pin numbers:
-const int buttonPin1 = 3;     // the number of the pushbutton pin
+// constants that won't change. used to set pin numbers:
+const int buttonPin1 = 3;     // the number of the button pin
 const int buttonPin2 = 2; 
 const int led1 = 11;
 const int led2 = 6;
@@ -11,7 +10,7 @@ const char button1press = 's';
 const char button2press = 'd';
 
 // variables will change:
-int buttonState1 = 0;         // variable for reading the pushbutton status
+int buttonState1 = 0;         // variable for reading the button status
 int buttonState2 = 0;
 
 void setup() {
@@ -44,17 +43,4 @@ void loop(){
   else {
     Keyboard.release(button2press);
   }
-  //delay();
-  
-  // Button 2:
-  //buttonState2 = digitalRead(buttonPin2);
-  //if (buttonState2 == LOW) {   
-    //while(buttonState2 == LOW){
-      //buttonState2 = digitalRead(buttonPin2);
-      //Keyboard.press(button2press);
-      //delay(30);
-    //}
-  //} 
-  //else {Keyboard.release(button2press);}
-  //delay();
 }
